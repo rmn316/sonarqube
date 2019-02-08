@@ -1,5 +1,5 @@
 FROM sonarqube:6.5-alpine
-MAINTAINER Robert Neal <robert.neal@zenrooms.com>
+MAINTAINER Robert Neal <rmn316@gmail.com>
 
 # create plugin download location; so we can copy them later when SonarQube is started
 ENV PLUGIN_DOWNLOAD_LOCATION /opt/plugins-download
